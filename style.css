@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: block;
+  background-image: rgb(188, 161, 219);
+  height: 100vh;
+  background-color: black;
+}
+.container{
+  position: relative;
+  left: 0px;
+}
+.header{
+  height: 150px;
+  width: 80%;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid rgb(123, 221, 228);
+  box-shadow: 0 0 10px black;
+  padding: 25px;
+  font-size: 50px;
+  color: #6DD5FA;
+  font-weight: bold;
+  font-family: 'Joan', serif;
+}
+.center{
+  text-align: left;
+}
+.btn{
+  position: absolute;
+  top: 45px;
+  right: 15%;
+}
+button{
+  color: rgb(62, 35, 161);
+  height: 50px;
+  width: 150px;
+  background-image: rgb(66, 22, 66);
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+#data{
+  justify-content: center;
+  display: flex;
+  padding-top: 50px;
+}
+.table{
+  width: 700px;
+}
+table{
+  color: #a7a83e;
+  font-size: 18px;
+  font-family: 'Tai Heritage Pro', serif;
+  width: 50%;
+  height: 350px;
+  cursor: pointer;
+}
+table td:hover{
+  background-color: #40b146;
+}
